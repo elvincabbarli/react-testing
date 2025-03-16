@@ -1,0 +1,21 @@
+// import Greet from "./Greet";
+// import { render, screen } from "@testing-library/react";
+
+// describe("Greet", () => {
+//   it("Greet renders Hello", () => {
+//     render(<Greet />);
+//     const greetElement = screen.getByText(/hello/i);
+//     expect(greetElement).toBeInTheDocument();
+//   });
+
+//   describe("Name test", () => {
+//     it("Name is in the Component", () => {
+//       render(<Greet name="Husen" />);
+//       const nameElement = screen.getByText("Hello Husen");
+//       expect(nameElement).toBeInTheDocument();
+//     });
+//   });
+// });
+
+// // fit - sadəcə xüsusi olaraq bu testin edilməsini istəniləndə yazırıq
+// // xit - when we want to skip a test
