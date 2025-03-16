@@ -17,9 +17,7 @@ describe("UseCounter custom hook", () => {
   test("should increment count", () => {
     const { result } = renderHook(() => UseCounter({ initialCount: 0 }));
 
-    act(() => {
-      result.current.increment();
-    });
+    act(() => result.current.increment());
 
     expect(result.current.count).toBe(1);
   });
@@ -27,9 +25,7 @@ describe("UseCounter custom hook", () => {
   test("should decrement count", () => {
     const { result } = renderHook(() => UseCounter({ initialCount: 5 }));
 
-    act(() => {
-      result.current.decrement();
-    });
+    act(() => result.current.decrement());
 
     expect(result.current.count).toBe(4);
   });
