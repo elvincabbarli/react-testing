@@ -44,6 +44,7 @@ function App() {
         <Counter />
         <hr />
         <MuiMode />
+        <hr />
       </div>
     </AppProvider>
   );
